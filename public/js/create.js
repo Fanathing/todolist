@@ -7,7 +7,6 @@ const setTodos = (e) => {
     const today = new Date();
     const listBirth = `${today.getFullYear()} ${today.getMonth()}월 ${today.getDate()}일`
     
-
     const todo = {
         author: author.value,
         title: title.value,
