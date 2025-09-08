@@ -6,11 +6,13 @@
     <title>TodoList - 목록페이지</title>
 </head>
 <body>
-    <form action="./index.html" method="get">
+    <form action="./public/views/list.html" method="get" id="todolistform">
         <input type="text" name="author">
         <input type="text" name="title">
         <textarea type="text" name="content"></textarea>
         <button type="submit">할 일 작성</button>
     </form>
+    <a href="./public/views/list.html">할 일 목록 페이지</a>
+    <script src="./public/js/create.js"></script>
 </body>
 </html>
