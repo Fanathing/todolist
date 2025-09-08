@@ -10,12 +10,14 @@ const getTodos = function() {
         const authorEl = document.createElement("li");
         const titleEl = document.createElement("li");
         const contentEl = document.createElement("li");
+        const listBirthEl = document.createElement("li");
 
         authorEl.textContent = value.author;
         titleEl.textContent = value.title;
         contentEl.textContent = value.content;
+        listBirthEl.textContent = value.listBirth
 
-        todoList.append(authorEl, titleEl, contentEl);
+        todoList.append(authorEl, titleEl, contentEl, listBirthEl);
     })
     
     
